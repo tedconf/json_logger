@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "json_logger"
   gem.homepage = "http://github.com/alexdean/json_logger"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Simple structured logging.}
+  gem.description = %Q{A subclass of Ruby's standard `Logger` which makes it easy to write structured data to your log files.}
   gem.email = "alex@crackpot.org"
   gem.authors = ["Alex Dean"]
   # dependencies defined in Gemfile
