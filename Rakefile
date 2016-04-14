@@ -14,13 +14,13 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "json_logger"
-  gem.homepage = "http://github.com/alexdean/json_logger"
-  gem.license = "MIT"
+  gem.name = 'json_logger'
+  gem.homepage = 'http://github.com/alexdean/json_logger'
+  gem.license = 'MIT'
   gem.summary = %Q{Simple structured logging.}
   gem.description = %Q{A subclass of Ruby's standard `Logger` which makes it easy to write structured data to your log files.}
-  gem.email = "alex@crackpot.org"
-  gem.authors = ["Alex Dean"]
+  gem.email = 'alex@crackpot.org'
+  gem.authors = ['Alex Dean']
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
@@ -40,7 +40,7 @@ task :default => :spec
 
 require 'rdoc/task'
 Rake::RDocTask.new do |rdoc|
-  version = File.exist?('VERSION') ? File.read('VERSION') : ""
+  version = File.exist?('VERSION') ? File.read('VERSION') : ''
 
   rdoc.rdoc_dir = 'rdoc'
   rdoc.title = "json_logger #{version}"
