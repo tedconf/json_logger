@@ -1,6 +1,6 @@
-$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
-$LOAD_PATH.unshift(File.dirname(__FILE__))
+require 'rubygems'
 require 'rspec'
+require 'bundler/setup'
 require 'json_logger'
 
 # Requires supporting files with custom matchers and macros, etc,
@@ -8,5 +8,5 @@ require 'json_logger'
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each {|f| require f}
 
 RSpec.configure do |config|
-  
+
 end

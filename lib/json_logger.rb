@@ -1,9 +1,8 @@
-require 'logger'
 require 'time'
 require 'json'
+require 'json_logger/version'
 
 class JsonLogger < Logger
-
   @@factory_defaults = {}
   def self.factory_defaults=(options)
     @@factory_defaults = options
