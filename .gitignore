@@ -1,8 +1,8 @@
-.DS_Store
 .bundle
-
-pkg
+.rubocop-http*
+.DS_Store
 
 Gemfile.lock
 
-.rubocop-http*
+pkg
+spec/reports

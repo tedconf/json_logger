@@ -40,8 +40,7 @@ ignores=""
 bundle-audit update; bundle-audit check --ignore=${ignores}
 
 # Run the tests
-# Disabled in template by default, ensure you have Rails database configs if they are required before enabling.
-#bundle exec rake spec
+COVERAGE=on bundle exec rake spec
 
 # Static checking
 bundle exec rubocop \
