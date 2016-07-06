@@ -50,6 +50,6 @@ class JsonLogger < Logger
     }
 
     @levels = {}
-    Logger::SEV_LABEL.each_with_index {|label,idx| @levels[label] = idx}
+    Logger::SEV_LABEL.each_with_index { |label,idx| @levels[label] = idx }
   end
 end
