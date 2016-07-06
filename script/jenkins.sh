@@ -51,8 +51,4 @@ bundle exec rubocop \
   --format RuboCop::Formatter::CheckstyleFormatter \
   --out tmp/checkstyle.xml
 
-# Security scan
-# See http://brakemanscanner.org/docs/ignoring_false_positives/ to ignore anything reported here.
-brakeman -z
-
 exit 0
