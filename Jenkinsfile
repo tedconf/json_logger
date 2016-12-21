@@ -1,3 +1,3 @@
 rubyBuild {
-  jobType = 'base'
+  job_type = 'base'
 }
