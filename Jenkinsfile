@@ -1,0 +1,3 @@
+rubyBuild {
+  jobType = 'base'
+}
