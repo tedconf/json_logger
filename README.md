@@ -83,3 +83,14 @@ Output:
 
 Copyright (c) 2013 Alex Dean. See LICENSE.txt for
 further details.
+
+
+Tag for hackweek glossary:
+
+<!--- project_def -->
+Simple structured logging. A subclass of Ruby's standard Logger which makes it easy to write structured data to your log files.
+
+Vertical: Tools
+
+Related links: https://github.com/tedconf/json_logger
+<!--- /project_def -->
