@@ -17,8 +17,8 @@ Gem::Specification.new do |s|
   s.licenses = ['MIT']
   s.require_paths = ['lib']
 
-  s.add_development_dependency 'rake', '~> 10.0'
-  s.add_development_dependency 'rspec', '~> 2.99.0'
+  s.add_development_dependency 'rake', '~> 12.3.0'
+  s.add_development_dependency 'rspec', '~> 3.9.0'
   s.add_development_dependency 'timecop', '>= 0'
   s.add_development_dependency 'bundler-audit', '~> 0.5.0'
   s.add_development_dependency 'rubocop', '~> 0.49.0'
