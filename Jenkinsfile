@@ -1,3 +1,3 @@
 rubyBuild {
-  job_type = 'base'
+  job_type = 'gem'
 }
