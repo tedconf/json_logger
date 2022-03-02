@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rake', '~> 12.3.0'
   s.add_development_dependency 'rspec', '~> 3.9.0'
   s.add_development_dependency 'timecop', '>= 0'
-  s.add_development_dependency 'bundler-audit', '~> 0.5.0'
+  s.add_development_dependency 'bundler-audit'
   s.add_development_dependency 'rubocop', '~> 0.49.0'
   s.add_development_dependency 'rubocop-checkstyle_formatter', '~> 0.2.0'
   s.add_development_dependency 'ci_reporter_rspec', '~> 1.0.0'
