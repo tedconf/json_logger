@@ -17,6 +17,13 @@ Gem::Specification.new do |spec|
   spec.licenses = ['MIT']
   spec.require_paths = ['lib']
 
+  if s.respond_to?(:metadata)
+    s.metadata['allowed_push_host'] = 'https://rubygems.ted.com/private'
+  else
+    raise 'RubyGems 2.0 or newer is required to protect against ' \
+      'public gem pushes.'
+  end
+
   spec.add_development_dependency 'bundler', '> 2.0'
   spec.add_development_dependency 'rake', '~> 12.3.0'
   spec.add_development_dependency 'rspec', '~> 3.9.0'
