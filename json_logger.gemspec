@@ -17,8 +17,8 @@ Gem::Specification.new do |spec|
   spec.licenses = ['MIT']
   spec.require_paths = ['lib']
 
-  if s.respond_to?(:metadata)
-    s.metadata['allowed_push_host'] = 'https://rubygems.ted.com/private'
+  if spec.respond_to?(:metadata)
+    spec.metadata['allowed_push_host'] = 'https://rubygems.ted.com/private'
   else
     raise 'RubyGems 2.0 or newer is required to protect against ' \
       'public gem pushes.'
