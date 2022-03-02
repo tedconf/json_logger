@@ -1,9 +1,14 @@
+
 AllCops:
-  TargetRubyVersion: 2.3
+  TargetRubyVersion: 2.7 # adjust for your project
+  #EnabledByDefault: true
 
-# not sure if this is safe quite yet.
-Style/FrozenStringLiteralComment:
+inherit_gem:
+  ted_rubocop_rules: rubocop.yml
+# inherit_from: .rubocop_todo.yml # if you have one
+inherit_mode:
+  merge:
+    - Exclude
+
+Style/Documentation:
   Enabled: false
-
-inherit_from:
-  - https://raw.githubusercontent.com/tedconf/code-style-guides/master/linters/rubocop/rubocop.yml

@@ -79,6 +79,11 @@ Output:
 }
 ```
 
+## Development
+
+### CI
+This application uses [Github Actions](https://github.com/tedconf/json_logger/actions) for CI.
+
 ## Copyright
 
 Copyright (c) 2013 Alex Dean. See LICENSE.txt for

@@ -1,0 +1,31 @@
+# TED Tech uses TedAppMetaData to track git repositories.
+# Check docs here for more info:
+# https://github.com/tedconf/ted_app_meta_data
+
+# Version refers to the TedAppMetaData schema version;
+# not the version of the project it's describing.
+version: 1.4
+
+# Vertical should be one of the approved vertical values.
+# Check docs here for the latest list:
+# https://github.com/tedconf/ted_app_meta_data
+# this should alway be lower cased
+squad: Operations
+
+# this should be readable by any Digital Products person to understand at a
+# high level how this repo is used
+human_description: "Simple structured logging.: A subclass of Ruby's standard Logger which makes it easy to write structured data to your log files."
+
+# Production and Staging endpoint can be any appropriate URL where
+# this project is hosted; e.g. an API root or a full website.
+# Blank values may be used for libraries that have no dedicated
+# hosting, but do not omit the Yaml keys.
+production:
+  endpoint_url:
+staging:
+  endpoint_url:
+error_collector_url: http://airbrake.io/something
+ci_url: https://github.com/tedconf/json_logger/actions
+primary_languages:
+    - ruby
+support_level: Full
